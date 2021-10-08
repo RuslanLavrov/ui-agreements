@@ -20,10 +20,10 @@ const noProxydata = {
       }]
     },
     'handlers': {
-      'onClose': 'ƒ () {}',
-      'onEdit': 'ƒ () {}',
-      'onViewUrlCustomizer': 'ƒ () {}',
-      'onClickProxyServerAction': 'ƒ () {}'
+      'onClose': () => {},
+      'onEdit': () => {},
+      'onViewUrlCustomizer': () => {},
+      'onClickProxyServerAction': () => {}
     },
     'stringTemplates': {
       'urlProxiers': '[]',
@@ -46,10 +46,10 @@ const noProxydata = {
       }]
     },
     'handlers': {
-      'onClose': 'ƒ () {}',
-      'onEdit': 'ƒ () {}',
-      'onViewUrlCustomizer': 'ƒ () {}',
-      'onClickProxyServerAction': 'ƒ () {}'
+      'onClose': () => {},
+      'onEdit': () => {},
+      'onViewUrlCustomizer': () => {},
+      'onClickProxyServerAction': () => {}
     },
     'stringTemplates': {
       'urlProxiers': [{
